@@ -2,7 +2,7 @@ var plan = require('flightplan');
 
 var appName = 'project2';
 var username = 'deploy';
-var startFile = 'sudo npm start';
+var startFile = 'node app/app.js';
 
 var tmpDir = appName+'-' + new Date().getTime();
 
