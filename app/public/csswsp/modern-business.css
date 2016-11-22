@@ -1,0 +1,176 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles WSP color #37434e */
+
+html,
+body, p{
+  height: 100%;
+
+    color: #E0DEE3;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #37434e;
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+p{
+
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+   height: 100%;
+
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain ;
+    background-repeat:no-repeat;
+    background-color: black;
+}
+
+.wsp-header{
+
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.navbar-inverse {
+    background-color: rgba(55, 67, 78, 0.82);
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgb(48, 58, 68);
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgb(36, 46, 56);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #5e625f;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #7c796c;
+}
+
+.navbar-brand{
+  position: relative;
+  bottom: 7px;
+}
+
+
+
+.embed-responsive-item{
+
+}
+
+.lg-icons:before {
+    content: "\f06e";
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    font-size: 74px;
+    padding: 15px;
+
+
+}
+
+
+.fa-stack-2x {
+    font-size: 1em !important;
+    padding: 10px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+.main-panel{
+background-color: rgba(224, 222, 227, 0) ;
+border-color: rgba(224, 222, 227, 0);
+}
+.hr-color{
+
+}
+.panel-heading{
+  border-color: black;
+}
+footer{
+
+}
