@@ -1,8 +1,8 @@
 var plan = require('flightplan');
 
-var appName = 'cport';
+var appName = 'project2';
 var username = 'deploy';
-var startFile = 'bin/www';
+var startFile = 'sudo npm start';
 
 var tmpDir = appName+'-' + new Date().getTime();
 
