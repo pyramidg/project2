@@ -145,6 +145,9 @@ i.fa:hover{
 
 
 }
+.black{
+  color:black;
+}
 h3:hover{
   color:black;
 }
@@ -168,8 +171,12 @@ h3:hover{
     border-bottom: 1px solid rgb(8, 8, 8);
 }
 .main-panel{
-background-color: rgba(224, 222, 227, 0) ;
-border-color: rgba(224, 222, 227, 0);
+background-color: #37434e;
+border-color: #37434e;
+}
+.panel-default>.panel-heading{
+  background-color: #37434e;
+  border-color: #37434e;
 }
 
 .panel-heading{
