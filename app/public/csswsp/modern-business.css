@@ -140,13 +140,19 @@ footer {
 
 }
 
+i.fa:hover{
+  color: black;
+
+
+}
+h3:hover{
+  color:black;
+}
 .lg-icons:before {
     content: "\f06e";
     display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0px 0px 2px #888;
-    font-size: 74px;
-    padding: 15px;
+    font-size: 75px;
+    padding: 30px;
 
 
 }
@@ -165,11 +171,14 @@ footer {
 background-color: rgba(224, 222, 227, 0) ;
 border-color: rgba(224, 222, 227, 0);
 }
-.hr-color{
 
-}
 .panel-heading{
   border-color: black;
+}
+.green-button{
+  background-color: #6f8f91;
+  border-color: #6f8f91;
+  color: black;
 }
 footer{
 
