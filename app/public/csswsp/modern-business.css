@@ -7,12 +7,12 @@
 /* Global Styles WSP color #37434e */
 
 html,
-body, p{
+body{
   height: 100%;
 
     color: #E0DEE3;
     font-family: "Open Sans", arial, sans-serif;
-    font-size: 18px;
+
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 p{
-
+    font-size: 18px;
 }
 .img-portfolio {
     margin-bottom: 30px;
@@ -148,6 +148,10 @@ i.fa:hover{
 .black{
   color:black;
 }
+.black-sm{
+  color:black;
+
+}
 h3:hover{
   color:black;
 }
@@ -187,6 +191,16 @@ border-color: #37434e;
   border-color: #6f8f91;
   color: black;
 }
+
+.circle-i{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  background-color: #E0DEE3;
+    padding: 25px;
+}
+
+
 footer{
 
 }
