@@ -199,8 +199,22 @@ border-color: #37434e;
   background-color: #E0DEE3;
     padding: 25px;
 }
-
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
 
 footer{
 
+}
+small{
+  color: rgb(156, 156, 156);
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
 }
