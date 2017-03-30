@@ -11,8 +11,10 @@ router.get('/services', function(req, res) {
   });
 
   res.render('services', {
-    pageTitle: 'Services'
-
+    pageTitle: 'Services',
+    artwork: pagePhotos,
+    speakers: pageSpeakers,
+    pageID: 'speakerList'
   });
 });
 
@@ -30,7 +32,9 @@ router.get('/speakers/:speakerid', function(req, res) {
 
   res.render('services', {
     pageTitle: 'Service Info',
-    pageID: 'services'
+    artwork: pagePhotos,
+    speakers: pageSpeakers,
+    pageID: 'speakerDetail'
   });
 });
 

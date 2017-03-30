@@ -4,18 +4,20 @@ var app = express();
 var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
-app.set('port', process.env.PORT || 3001 );
+app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
 app.set('view engine', 'ejs');
 app.set('views', 'app/views');
 
-app.locals.siteTitle = 'Web Studio Place';
+app.locals.siteTitle = 'Roux Meetups';
 app.locals.allSpeakers = dataFile.speakers;
 
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
+app.use(require('./routes/speakers'));
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
+app.use(require('./routes/chat'));
 app.use(require('./routes/contact'));
 app.use(require('./routes/services'));
 app.use(require('./routes/about'));
