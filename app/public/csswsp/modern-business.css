@@ -294,6 +294,6 @@ color: white !important;
   text-align: center;
 }
 
-.rounded-img{
+.rounded-img .img-responsive {
   border-radius: 423px;
 }
