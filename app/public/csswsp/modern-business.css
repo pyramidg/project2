@@ -297,3 +297,14 @@ color: white !important;
 .rounded-img .img-responsive {
   border-radius: 423px;
 }
+
+.header-bg{
+
+  width: 100%;
+  height: 450px;
+  background: url('https://c2.staticflickr.com/6/5532/30384564784_e3797bbd02_o.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
